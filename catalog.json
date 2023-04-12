@@ -17,6 +17,21 @@
             "latest_human_version": "latest_2.0.15",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/chromium-desktop-g3.png"
         },
+        "photoprism": {
+            "name": "photoprism",
+            "categories": [
+                "media"
+            ],
+            "app_readme": "<p>PhotoPrism\u00c2\u00ae is a server-based application for browsing, organizing and sharing your personal photo collection</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/photoprism\">https://truecharts.org/charts/stable/photoprism</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "location": "/home/runner/work/catalog/catalog/stable/photoprism",
+            "healthy": true,
+            "healthy_error": null,
+            "latest_version": "14.0.1",
+            "latest_app_version": "221118",
+            "latest_human_version": "221118_14.0.1",
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/photoprism.png"
+        },
+        
     }
     "dev": {
         "testapp": {
