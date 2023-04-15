@@ -35,7 +35,7 @@ persistence:
     mountPath: /etc/letsencrypt
     size: 256Gi
 mariadb:
-  enabled: true
+  enabled: false
   mariadbUsername: npm
   mariadbDatabase: npm
 
