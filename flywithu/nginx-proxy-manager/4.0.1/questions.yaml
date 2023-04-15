@@ -970,23 +970,10 @@ questions:
     label: GPU Configuration
     group: Resources and Devices
     schema:
-      type: list
-      default: []
-      items:
-        - variable: scaleGPUEntry
-          label: GPU
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              # Specify GPU configuration
-              - variable: gpu
-                label: Select GPU
-                schema:
-                  type: dict
-                  $ref:
-                    - "definitions/gpuConfiguration"
-                  attrs: []
+      type: dict
+      $ref:
+        - "definitions/gpuConfiguration"
+      attrs: []
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
